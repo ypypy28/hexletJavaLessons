@@ -2,22 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3dd92ff-9f3b-4612-bd7c-23159f3c86b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lesson3.2/src/Course.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lesson3.2/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lesson3.2/src/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lesson3.2/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lesson3.2/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lesson3.2/lesson3.2.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lesson3.2/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lesson3.2/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lesson3.2/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lesson3.2/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lesson3.2/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lesson3.2/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lesson3.2/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lesson3.2/src/com/hexlet/buildings/Building.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lesson3.2/src/com/hexlet/humans/Teacher.java" />
+      <change type="DELETED" beforePath="C:\GitHub\hexletJavaLessons\lesson3.2\out\production\lesson3.2\Course.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\hexletJavaLessons\lesson3.2\out\production\lesson3.2\Main.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\hexletJavaLessons\lesson3.2\out\production\lesson3.2\Student.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\hexletJavaLessons\lesson3.2\src\Class.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\hexletJavaLessons\lesson3.2\src\Course.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\hexletJavaLessons\lesson3.2\src\Main.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\hexletJavaLessons\lesson3.2\src\Student.class" afterPath="" />
+      <change type="MOVED" beforePath="C:\GitHub\hexletJavaLessons\lesson3.2\src\Course.java" afterPath="$PROJECT_DIR$/../lesson3.2/src/com/hexlet/common/Course.java" />
+      <change type="MOVED" beforePath="C:\GitHub\hexletJavaLessons\lesson3.2\src\Main.java" afterPath="$PROJECT_DIR$/../lesson3.2/src/com/hexlet/Main.java" />
+      <change type="MOVED" beforePath="C:\GitHub\hexletJavaLessons\lesson3.2\src\Student.java" afterPath="$PROJECT_DIR$/../lesson3.2/src/com/hexlet/humans/Student.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lesson3.2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../lesson3.2/.idea/workspace.xml" />
     </list>
     <ignored path="lesson3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +24,7 @@
     <file path="/Student.java" changelist="b3dd92ff-9f3b-4612-bd7c-23159f3c86b4" time="1372879242382" ignored="false" />
     <file path="/Cabinet.java" changelist="b3dd92ff-9f3b-4612-bd7c-23159f3c86b4" time="1372450737072" ignored="false" />
     <file path="/Teacher.java" changelist="b3dd92ff-9f3b-4612-bd7c-23159f3c86b4" time="1372450845929" ignored="false" />
-    <file path="/Dummy.txt" changelist="b3dd92ff-9f3b-4612-bd7c-23159f3c86b4" time="1372878941582" ignored="false" />
+    <file path="/Dummy.txt" changelist="b3dd92ff-9f3b-4612-bd7c-23159f3c86b4" time="1372958706069" ignored="false" />
     <file path="/Class.java" changelist="b3dd92ff-9f3b-4612-bd7c-23159f3c86b4" time="1372880031418" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +40,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -78,7 +77,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -88,7 +86,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -115,10 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Teacher.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Teacher.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Teacher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+            <state line="7" column="13" selection-start="118" selection-end="118" vertical-scroll-proportion="0.19866444">
               <folding />
             </state>
           </provider>
@@ -185,7 +183,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -221,6 +218,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,16 +229,17 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -255,19 +254,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -295,6 +281,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -502,53 +501,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="40" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cabinet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="40" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teacher.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="40" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cabinet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="24" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="40" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cabinet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="24" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="40" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cabinet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="24" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
@@ -559,6 +579,13 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="118" selection-end="118" vertical-scroll-proportion="0.19866444">
           <folding />
         </state>
       </provider>

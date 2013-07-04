@@ -1,10 +1,14 @@
+package com.hexlet.humans;
+
+import com.hexlet.common.Course;
+
 public class Student {
 
     public String name = "N/A";
 
     public int age = 16;
 
-    public Course course = new Course();
+    public Course course;
 
     public void sayHello() {
 
