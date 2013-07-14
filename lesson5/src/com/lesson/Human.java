@@ -2,11 +2,11 @@ package com.lesson;
 
 public class Human {
 
-    private final int minAge = 0;
+    public static final int MIN_AGE = 0;
 
-    private final int maxAge = 130;
+    private static final int MAX_AGE = 130;
 
-    private final int minNameLength = 3;
+    private static final int MIN_NAME_LENGTH = 3;
 
     private String name;
 
@@ -14,7 +14,7 @@ public class Human {
 
     public void setAge(int newAge) {
 
-        if (newAge > minAge && newAge < maxAge) {
+        if (newAge > Human.MIN_AGE && newAge < Human.MAX_AGE) {
             age = newAge;
         }
     }
@@ -28,7 +28,7 @@ public class Human {
     }
 
     public void setName( String newName ) {
-        if (newName !=null && newName.length() >= minNameLength) {
+        if (newName !=null && newName.length() >= Human.MIN_NAME_LENGTH) {
             name = newName;
         }
     }
@@ -41,8 +41,8 @@ public class Human {
 
 
 /*
-  minAge
-  maxAge
+  MIN_AGE
+  MAX_AGE
   minNameLEngth
   name
   age
