@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34dfb3dc-88bd-4f61-ac27-80e45dce243b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hexlet/buildings/Building.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hexlet/humans/Teacher.java" />
-      <change type="DELETED" beforePath="C:\GitHub\hexletJavaLessons\lesson3.2\src\Class.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\hexletJavaLessons\lesson3.2\src\Course.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\hexletJavaLessons\lesson3.2\src\Main.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\hexletJavaLessons\lesson3.2\src\Student.class" afterPath="" />
-      <change type="MOVED" beforePath="C:\GitHub\hexletJavaLessons\lesson3.2\src\Course.java" afterPath="$PROJECT_DIR$/src/com/hexlet/common/Course.java" />
-      <change type="MOVED" beforePath="C:\GitHub\hexletJavaLessons\lesson3.2\src\Main.java" afterPath="$PROJECT_DIR$/src/com/hexlet/Main.java" />
-      <change type="MOVED" beforePath="C:\GitHub\hexletJavaLessons\lesson3.2\src\Student.java" afterPath="$PROJECT_DIR$/src/com/hexlet/humans/Student.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lesson3/src/Main.java" afterPath="$PROJECT_DIR$/../lesson3/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lesson3.2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="34dfb3dc-88bd-4f61-ac27-80e45dce243b" time="1372958706069" ignored="false" />
+    <file path="/Dummy.txt" changelist="34dfb3dc-88bd-4f61-ac27-80e45dce243b" time="1373817375771" ignored="false" />
     <file path="/Student.java" changelist="34dfb3dc-88bd-4f61-ac27-80e45dce243b" time="1372957456992" ignored="false" />
     <file path="/Main.java" changelist="34dfb3dc-88bd-4f61-ac27-80e45dce243b" time="1372958786958" ignored="false" />
     <file path="/Class.java" changelist="34dfb3dc-88bd-4f61-ac27-80e45dce243b" time="1372880031418" ignored="false" />
@@ -87,7 +78,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/hexlet/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="134" selection-end="134" vertical-scroll-proportion="0.259542">
+            <state line="18" column="37" selection-start="509" selection-end="509" vertical-scroll-proportion="0.51085144">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -192,6 +183,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -296,17 +289,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesson3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesson4" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -464,18 +455,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="780" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -484,6 +473,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -553,6 +544,64 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/hexlet/buildings/Building.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="21" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hexlet/humans/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hexlet/common/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hexlet/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hexlet/humans/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="54" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hexlet/buildings/Building.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="21" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hexlet/humans/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hexlet/common/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hexlet/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -606,7 +655,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hexlet/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="134" selection-end="134" vertical-scroll-proportion="0.259542">
+        <state line="18" column="37" selection-start="509" selection-end="509" vertical-scroll-proportion="0.51085144">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
